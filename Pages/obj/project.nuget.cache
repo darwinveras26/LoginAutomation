@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "w7fN3QKuMYs=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\HP 245 G7\\Documents\\new_projects\\CsharpProjects\\AutomationLoginTask\\Pages\\Pages.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HP 245 G7\\.nuget\\packages\\selenium.support\\4.30.0\\selenium.support.4.30.0.nupkg.sha512",
+    "C:\\Users\\HP 245 G7\\.nuget\\packages\\selenium.webdriver\\4.30.0\\selenium.webdriver.4.30.0.nupkg.sha512"
+  ],
+  "logs": []
+}

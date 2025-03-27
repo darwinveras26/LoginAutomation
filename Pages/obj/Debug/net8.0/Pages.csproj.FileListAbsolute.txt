@@ -1,0 +1,16 @@
+C:\Users\HP 245 G7\Documents\new_projects\CsharpProjects\AutomationLoginTask\Pages\bin\Debug\net8.0\selenium-manager\linux\selenium-manager
+C:\Users\HP 245 G7\Documents\new_projects\CsharpProjects\AutomationLoginTask\Pages\bin\Debug\net8.0\selenium-manager\macos\selenium-manager
+C:\Users\HP 245 G7\Documents\new_projects\CsharpProjects\AutomationLoginTask\Pages\bin\Debug\net8.0\selenium-manager\windows\selenium-manager.exe
+C:\Users\HP 245 G7\Documents\new_projects\CsharpProjects\AutomationLoginTask\Pages\bin\Debug\net8.0\Pages.deps.json
+C:\Users\HP 245 G7\Documents\new_projects\CsharpProjects\AutomationLoginTask\Pages\bin\Debug\net8.0\Pages.dll
+C:\Users\HP 245 G7\Documents\new_projects\CsharpProjects\AutomationLoginTask\Pages\bin\Debug\net8.0\Pages.pdb
+C:\Users\HP 245 G7\Documents\new_projects\CsharpProjects\AutomationLoginTask\Pages\obj\Debug\net8.0\Pages.csproj.AssemblyReference.cache
+C:\Users\HP 245 G7\Documents\new_projects\CsharpProjects\AutomationLoginTask\Pages\obj\Debug\net8.0\Pages.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP 245 G7\Documents\new_projects\CsharpProjects\AutomationLoginTask\Pages\obj\Debug\net8.0\Pages.AssemblyInfoInputs.cache
+C:\Users\HP 245 G7\Documents\new_projects\CsharpProjects\AutomationLoginTask\Pages\obj\Debug\net8.0\Pages.AssemblyInfo.cs
+C:\Users\HP 245 G7\Documents\new_projects\CsharpProjects\AutomationLoginTask\Pages\obj\Debug\net8.0\Pages.csproj.CoreCompileInputs.cache
+C:\Users\HP 245 G7\Documents\new_projects\CsharpProjects\AutomationLoginTask\Pages\obj\Debug\net8.0\Pages.sourcelink.json
+C:\Users\HP 245 G7\Documents\new_projects\CsharpProjects\AutomationLoginTask\Pages\obj\Debug\net8.0\Pages.dll
+C:\Users\HP 245 G7\Documents\new_projects\CsharpProjects\AutomationLoginTask\Pages\obj\Debug\net8.0\refint\Pages.dll
+C:\Users\HP 245 G7\Documents\new_projects\CsharpProjects\AutomationLoginTask\Pages\obj\Debug\net8.0\Pages.pdb
+C:\Users\HP 245 G7\Documents\new_projects\CsharpProjects\AutomationLoginTask\Pages\obj\Debug\net8.0\ref\Pages.dll
