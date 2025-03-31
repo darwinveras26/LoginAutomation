@@ -15,14 +15,13 @@ namespace Pages
             this.driver = driver;
         }
 
-        public void FindLocatorAndSendKeys(By locator, string message)
-        {
-            driver.FindElement(locator).SendKeys(message);
-        }
+        public void EnterUsername()
+        { }
 
-        public void FindLocatorAndClick(By locator)
-        {
-            driver.FindElement(locator).Click();
-        }
+        public void EnterPassword()
+        { }
+
+        public void ClickLoginButton()
+        { }
     }
 }

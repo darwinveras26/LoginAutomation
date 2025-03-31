@@ -2,22 +2,15 @@
 
 namespace Pages
 {
-    public class LoginPage
+    public class LoginPage : BasePage
     {
-        private IWebDriver driver;
         private By usernameInput = By.Id("user-name");
         private By passwordInput = By.Id("password");
         private By loginButton = By.Id("login-button");
 
         public LoginPage(IWebDriver driver)
-        {
-            if (driver == null)
-            {
-                throw new ArgumentNullException(nameof(driver), "driver can not be null.");
-            }
-
-            this.driver = driver;
-        }
+            : base(driver)
+        {}
 
         public void EnterUsername(string username)
         {
@@ -29,7 +22,7 @@ namespace Pages
             driver.FindElement(passwordInput).SendKeys(password);
         }
 
-        public void ClickLoginButton()
+        public new void ClickLoginButton()
         {
             driver.FindElement(loginButton).Click();
         }
