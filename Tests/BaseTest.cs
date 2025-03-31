@@ -17,6 +17,7 @@ namespace Pages
         {
             string browser = Environment.GetEnvironmentVariable("BROWSER") ?? "chrome";
             SetUp(browser);
+            driver.Manage().Window.Maximize();
         }
 
         public void SetUp(string browser)
@@ -35,8 +36,6 @@ namespace Pages
                 default:
                     throw new ArgumentException("Incorrect browser");
             }
-
-            driver.Manage().Window.Maximize();
         }
 
         public void Dispose()
