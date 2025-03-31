@@ -2,7 +2,6 @@ using Pages;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 
-
 namespace Tests
 {
     public class LoginTests : BaseTest
@@ -10,12 +9,8 @@ namespace Tests
         private LoginPage? loginPage;
 
         public LoginTests()
+            : base()
         {
-            if (driver == null)
-            {
-                throw new ArgumentNullException(nameof(driver), "driver cannot be null.");
-            }
-
             loginPage = new LoginPage(driver);
             driver.Navigate().GoToUrl("https://www.saucedemo.com/");
         }
