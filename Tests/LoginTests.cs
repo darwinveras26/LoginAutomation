@@ -20,16 +20,6 @@ namespace Tests
             driver.Navigate().GoToUrl("https://www.saucedemo.com/");
         }
 
-        [Theory]
-        [InlineData("edge")]
-        [InlineData("firefox")]
-        [InlineData("chrome")]
-        public void SetUpTest(string browser)
-        {
-            Assert.NotNull(driver);
-            Assert.NotNull(loginPage);
-        }
-
         [Fact]
         public void InvalidLogin_WithEmptyCredentials()
         {
