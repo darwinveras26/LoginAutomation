@@ -106,3 +106,6 @@ C:\Users\HP 245 G7\Documents\new_projects\CsharpProjects\AutomationLoginTask\Tes
 C:\Users\HP 245 G7\Documents\new_projects\CsharpProjects\AutomationLoginTask\Tests\obj\Debug\net8.0\Tests.pdb
 C:\Users\HP 245 G7\Documents\new_projects\CsharpProjects\AutomationLoginTask\Tests\obj\Debug\net8.0\Tests.genruntimeconfig.cache
 C:\Users\HP 245 G7\Documents\new_projects\CsharpProjects\AutomationLoginTask\Tests\obj\Debug\net8.0\ref\Tests.dll
+C:\Users\HP 245 G7\Documents\new_projects\CsharpProjects\AutomationLoginTask\Tests\bin\Debug\net8.0\AngleSharp.dll
+C:\Users\HP 245 G7\Documents\new_projects\CsharpProjects\AutomationLoginTask\Tests\bin\Debug\net8.0\ICSharpCode.SharpZipLib.dll
+C:\Users\HP 245 G7\Documents\new_projects\CsharpProjects\AutomationLoginTask\Tests\bin\Debug\net8.0\WebDriverManager.dll
