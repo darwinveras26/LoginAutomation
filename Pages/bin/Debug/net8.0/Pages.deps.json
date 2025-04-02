@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v8.0": {
       "Pages/1.0.0": {
         "dependencies": {
-          "Selenium.Support": "4.30.0"
+          "Selenium.Support": "4.30.0",
+          "SeleniumExtras.WaitHelpers": "1.0.2"
         },
         "runtime": {
           "Pages.dll": {}
@@ -30,6 +31,17 @@
           "lib/net8.0/WebDriver.dll": {
             "assemblyVersion": "4.0.0.0",
             "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "SeleniumExtras.WaitHelpers/1.0.2": {
+        "dependencies": {
+          "Selenium.WebDriver": "4.30.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/SeleniumExtras.WaitHelpers.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
           }
         }
       }
@@ -54,6 +66,13 @@
       "sha512": "sha512-POEESh6f408SNst9kT+mf4g9zVahIWXjo+/8qkjUt8dNRllD+am2Fdj30j5b54kpRIx5Nz2b08AREYvaOyQQMA==",
       "path": "selenium.webdriver/4.30.0",
       "hashPath": "selenium.webdriver.4.30.0.nupkg.sha512"
+    },
+    "SeleniumExtras.WaitHelpers/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-de7m30nkZZLkfCncYBdluUpM27AR/Vkk4kiA4HRQbV+fZI3ps4qGIeJCuj8TAMXdMfQik5Rno8xPnFBIod+ebg==",
+      "path": "seleniumextras.waithelpers/1.0.2",
+      "hashPath": "seleniumextras.waithelpers.1.0.2.nupkg.sha512"
     }
   }
 }
