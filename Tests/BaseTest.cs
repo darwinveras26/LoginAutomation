@@ -1,29 +1,22 @@
 using OpenQA.Selenium;
-using OpenQA.Selenium.Chrome;
-using WebDriverManager;
-using WebDriverManager.DriverConfigs.Impl;
-using WebDriverManager.Helpers;
+using Utils;
 
-namespace Pages
+namespace Tests
 {
     public class BaseTest : IDisposable
     {
         protected IWebDriver driver;
+        private DriverManager driverManager;
 
         public BaseTest()
         {
-            new DriverManager().SetUpDriver(new ChromeConfig(), VersionResolveStrategy.MatchingBrowser);
-            driver = new ChromeDriver();
-            driver.Manage().Window.Maximize();
+            driverManager = new DriverManager();
+            driver = driverManager.InitializeDriver();
         }
 
         public void Dispose()
         {
-            if (driver != null)
-            {
-                driver.Quit();
-                driver.Dispose();
-            }
+            driverManager.QuitDriver();
         }
     }
 }

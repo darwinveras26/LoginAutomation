@@ -1,15 +1,13 @@
 using Pages;
-using OpenQA.Selenium;
-using OpenQA.Selenium.Support.UI;
+using Xunit;
 
 namespace Tests
 {
     public class LoginTests : BaseTest
     {
-        private LoginPage loginPage;
+        private readonly LoginPage loginPage;
 
         public LoginTests()
-            : base()
         {
             loginPage = new LoginPage(driver);
             driver.Navigate().GoToUrl("https://www.saucedemo.com/");
@@ -18,82 +16,49 @@ namespace Tests
         [Fact]
         public void InvalidLogin_WithEmptyCredentials()
         {
-            try
-            {
-                loginPage.EnterUsername(string.Empty);
-                loginPage.EnterPassword(string.Empty);
-                loginPage.ClickLoginButton();
+            // Arrange
+            string expectedErrorMessage = "Username is required";
 
-                var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(2));
-                wait.Until(d => d.FindElement(By.XPath("//div[contains(@class, 'error')]")));
+            // Act
+            loginPage.EnterUsername(string.Empty);
+            loginPage.EnterPassword(string.Empty);
+            loginPage.ClickLoginButton();
+            string actualErrorMessage = loginPage.GetErrorMessage();
 
-                string errorMessage = driver.FindElement(By.XPath("//div[contains(@class, 'error')]")).Text;
-                Assert.Contains("Username is required", errorMessage);
-            }
-            catch (WebDriverException ex)
-            {
-                Console.WriteLine($"WebDriver error: {ex.Message}");
-                Assert.Fail("Test failed due to WebDriver issue.");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Unexpected error: {ex.Message}");
-                Assert.Fail("Test failed due to an unexpected error.");
-            }
+            // Assert
+            Assert.Contains(expectedErrorMessage, actualErrorMessage);
         }
 
         [Fact]
-        public void InvalidLogin_WithEmptyPasswordCredential()
+        public void InvalidLogin_WithEmptyPassword()
         {
-            try
-            {
-                loginPage.EnterUsername("standard_user");
-                loginPage.EnterPassword(string.Empty);
-                loginPage.ClickLoginButton();
+            // Arrange
+            string expectedErrorMessage = "Password is required";
 
-                var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(2));
-                wait.Until(d => d.FindElement(By.XPath("//div[contains(@class, 'error')]")));
+            // Act
+            loginPage.EnterUsername("standard_user");
+            loginPage.EnterPassword(string.Empty);
+            loginPage.ClickLoginButton();
+            string actualErrorMessage = loginPage.GetErrorMessage();
 
-                string errorMessage = driver.FindElement(By.XPath("//div[contains(@class, 'error')]")).Text;
-                Assert.Contains("Password is required", errorMessage);
-            }
-            catch (WebDriverException ex)
-            {
-                Console.WriteLine($"WebDriver error: {ex.Message}");
-                Assert.Fail("Test failed due to WebDriver issue.");
-            }
-            catch(Exception ex)
-            {
-                Console.WriteLine($"Unexpected error: {ex.Message}");
-                Assert.Fail("Test failed due to an unexpected error.");
-            }
+            // Assert
+            Assert.Contains(expectedErrorMessage, actualErrorMessage);
         }
 
         [Fact]
         public void ValidLogin_WithValidCredentials()
         {
-            try
-            {
-                loginPage.EnterUsername("standard_user");
-                loginPage.EnterPassword("secret_sauce");
-                loginPage.ClickLoginButton();
+            // Arrange
+            string expectedTitle = "Swag Labs";
 
-                var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(2));
-                wait.Until(d => d.FindElement(By.XPath("//div[contains(@class, 'app_logo')]")));
+            // Act
+            loginPage.EnterUsername("standard_user");
+            loginPage.EnterPassword("secret_sauce");
+            loginPage.ClickLoginButton();
+            string actualTitle = loginPage.GetPageTitle();
 
-                string title = driver.FindElement(By.XPath("//div[contains(@class, 'app_logo')]")).Text;
-                Assert.Contains("Swag Labs", title);
-            }
-            catch (WebDriverException ex)
-            {
-                Console.WriteLine($"WebDriver error: {ex.Message}");
-                Assert.Fail("Test failed due to WebDriver issue.");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Unexpected error: {ex.Message}");
-                Assert.Fail("Test failed due to an unexpected error.");
-            }
+            // Assert
+            Assert.Contains(expectedTitle, actualTitle);
         }
     }
 }

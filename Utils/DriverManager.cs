@@ -9,11 +9,11 @@ namespace Utils
 {
     public class DriverManager
     {
-        private IWebDriver driver;
+        private IWebDriver? driver;
 
         public IWebDriver InitializeDriver()
         {
-            new DriverManager().SetUpDriver(new ChromeConfig(), VersionResolveStrategy.MatchingBrowser);
+            new WebDriverManager.DriverManager().SetUpDriver(new ChromeConfig(), VersionResolveStrategy.MatchingBrowser);
             driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
             return driver;
