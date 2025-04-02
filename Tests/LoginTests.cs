@@ -3,6 +3,9 @@ using Xunit;
 
 namespace Tests
 {
+    /// <summary>
+    /// Contains login test cases for validation.
+    /// </summary>
     public class LoginTests : BaseTest
     {
         private readonly LoginPage loginPage;
