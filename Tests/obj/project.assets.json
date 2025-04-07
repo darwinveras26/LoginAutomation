@@ -1509,11 +1509,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP 245 G7\\Documents\\new_projects\\CsharpProjects\\AutomationLoginTask\\Tests\\Tests.csproj",
+      "projectUniqueName": "C:\\Users\\HP 245 G7\\Source\\Repos\\LoginAutomation\\Tests\\Tests.csproj",
       "projectName": "Tests",
-      "projectPath": "C:\\Users\\HP 245 G7\\Documents\\new_projects\\CsharpProjects\\AutomationLoginTask\\Tests\\Tests.csproj",
+      "projectPath": "C:\\Users\\HP 245 G7\\Source\\Repos\\LoginAutomation\\Tests\\Tests.csproj",
       "packagesPath": "C:\\Users\\HP 245 G7\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP 245 G7\\Documents\\new_projects\\CsharpProjects\\AutomationLoginTask\\Tests\\obj\\",
+      "outputPath": "C:\\Users\\HP 245 G7\\Source\\Repos\\LoginAutomation\\Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP 245 G7\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1531,11 +1531,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\HP 245 G7\\Documents\\new_projects\\CsharpProjects\\AutomationLoginTask\\Pages\\Pages.csproj": {
-              "projectPath": "C:\\Users\\HP 245 G7\\Documents\\new_projects\\CsharpProjects\\AutomationLoginTask\\Pages\\Pages.csproj"
+            "C:\\Users\\HP 245 G7\\Source\\Repos\\LoginAutomation\\Pages\\Pages.csproj": {
+              "projectPath": "C:\\Users\\HP 245 G7\\Source\\Repos\\LoginAutomation\\Pages\\Pages.csproj"
             },
-            "C:\\Users\\HP 245 G7\\Documents\\new_projects\\CsharpProjects\\AutomationLoginTask\\Utils\\Utils.csproj": {
-              "projectPath": "C:\\Users\\HP 245 G7\\Documents\\new_projects\\CsharpProjects\\AutomationLoginTask\\Utils\\Utils.csproj"
+            "C:\\Users\\HP 245 G7\\Source\\Repos\\LoginAutomation\\Utils\\Utils.csproj": {
+              "projectPath": "C:\\Users\\HP 245 G7\\Source\\Repos\\LoginAutomation\\Utils\\Utils.csproj"
             }
           }
         }

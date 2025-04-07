@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP 245 G7\\Documents\\new_projects\\CsharpProjects\\AutomationLoginTask\\Utils\\Utils.csproj": {}
+    "C:\\Users\\HP 245 G7\\Source\\Repos\\LoginAutomation\\Utils\\Utils.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP 245 G7\\Documents\\new_projects\\CsharpProjects\\AutomationLoginTask\\Utils\\Utils.csproj": {
+    "C:\\Users\\HP 245 G7\\Source\\Repos\\LoginAutomation\\Utils\\Utils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP 245 G7\\Documents\\new_projects\\CsharpProjects\\AutomationLoginTask\\Utils\\Utils.csproj",
+        "projectUniqueName": "C:\\Users\\HP 245 G7\\Source\\Repos\\LoginAutomation\\Utils\\Utils.csproj",
         "projectName": "Utils",
-        "projectPath": "C:\\Users\\HP 245 G7\\Documents\\new_projects\\CsharpProjects\\AutomationLoginTask\\Utils\\Utils.csproj",
+        "projectPath": "C:\\Users\\HP 245 G7\\Source\\Repos\\LoginAutomation\\Utils\\Utils.csproj",
         "packagesPath": "C:\\Users\\HP 245 G7\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP 245 G7\\Documents\\new_projects\\CsharpProjects\\AutomationLoginTask\\Utils\\obj\\",
+        "outputPath": "C:\\Users\\HP 245 G7\\Source\\Repos\\LoginAutomation\\Utils\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP 245 G7\\AppData\\Roaming\\NuGet\\NuGet.Config",

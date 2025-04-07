@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iKVgp2mtSIc=",
+  "dgSpecHash": "+X3Yx+YaRAc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP 245 G7\\Documents\\new_projects\\CsharpProjects\\AutomationLoginTask\\Pages\\Pages.csproj",
+  "projectFilePath": "C:\\Users\\HP 245 G7\\Source\\Repos\\LoginAutomation\\Pages\\Pages.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP 245 G7\\.nuget\\packages\\selenium.support\\4.30.0\\selenium.support.4.30.0.nupkg.sha512",
     "C:\\Users\\HP 245 G7\\.nuget\\packages\\selenium.webdriver\\4.30.0\\selenium.webdriver.4.30.0.nupkg.sha512",

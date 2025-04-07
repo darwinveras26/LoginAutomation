@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Pages
-build_property.ProjectDir = C:\Users\HP 245 G7\Documents\new_projects\CsharpProjects\AutomationLoginTask\Pages\
+build_property.ProjectDir = C:\Users\HP 245 G7\Source\Repos\LoginAutomation\Pages\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

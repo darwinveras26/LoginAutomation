@@ -1,16 +1,15 @@
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 using SeleniumExtras.WaitHelpers;
-using System;
 
 namespace Pages
 {
     public abstract class BasePage
     {
         protected IWebDriver driver;
-        private WebDriverWait wait;
+        private readonly WebDriverWait wait;
 
-        public BasePage(IWebDriver driver)
+        protected BasePage(IWebDriver driver)
         {
             this.driver = driver ?? throw new ArgumentNullException(nameof(driver), "Driver cannot be null");
             wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10)); // Default wait time

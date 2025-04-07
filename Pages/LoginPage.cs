@@ -7,9 +7,9 @@ namespace Pages
     /// </summary> 
     public class LoginPage : BasePage
     {
-        private By usernameInput = By.Id("user-name");
-        private By passwordInput = By.Id("password");
-        private By loginButton = By.Id("login-button");
+        private readonly By usernameInput = By.Id("user-name");
+        private readonly By passwordInput = By.Id("password");
+        private readonly By loginButton = By.Id("login-button");
 
         public LoginPage(IWebDriver driver)
             : base(driver)

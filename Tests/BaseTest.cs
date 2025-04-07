@@ -6,7 +6,7 @@ namespace Tests
     public class BaseTest : IDisposable
     {
         protected IWebDriver driver;
-        private DriverManager driverManager;
+        private readonly DriverManager driverManager;
 
         public BaseTest()
         {

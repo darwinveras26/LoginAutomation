@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iW/94cjiluQ=",
+  "dgSpecHash": "EIWLRaEQHrc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP 245 G7\\Documents\\new_projects\\CsharpProjects\\AutomationLoginTask\\Tests\\Tests.csproj",
+  "projectFilePath": "C:\\Users\\HP 245 G7\\Source\\Repos\\LoginAutomation\\Tests\\Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP 245 G7\\.nuget\\packages\\anglesharp\\1.1.2\\anglesharp.1.1.2.nupkg.sha512",
     "C:\\Users\\HP 245 G7\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",

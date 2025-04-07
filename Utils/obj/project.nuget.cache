@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ntYmBJqg/eQ=",
+  "dgSpecHash": "nxs13oRKE+M=",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP 245 G7\\Documents\\new_projects\\CsharpProjects\\AutomationLoginTask\\Utils\\Utils.csproj",
+  "projectFilePath": "C:\\Users\\HP 245 G7\\Source\\Repos\\LoginAutomation\\Utils\\Utils.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP 245 G7\\.nuget\\packages\\anglesharp\\1.1.2\\anglesharp.1.1.2.nupkg.sha512",
     "C:\\Users\\HP 245 G7\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
